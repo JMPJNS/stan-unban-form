@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Main.module.css'
+import Header from "../components/header";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
         <title>Unban Formular</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header backButton={false}/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>

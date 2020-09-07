@@ -1,9 +1,11 @@
 import styles from '../styles/Main.module.css'
+import Header from "../components/header";
 
 
 export default function Twitch() {
     return (
         <div className={styles.container}>
+            <Header backButton={true}/>
             <main className={styles.main}>
                 <h1 className={styles.title}>
                     Unban Formular
